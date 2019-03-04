@@ -29,9 +29,11 @@ class Books extends Component {
     }
 
     render() {
+        console.log(this.state.books.map(book=>book.volumeInfo.imageLinks.thumbnail))
+
         return (
         <div className="Books">
-            YAS BOOKS
+            FIND SOME BOOKS
             <SearchArea searchBook={this.searchBook} handleSearch={this.handleSearch}/>
             <BookList books={this.state.books}/>
         </div>
