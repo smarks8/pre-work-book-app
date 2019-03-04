@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/pre-work-book-app/static/js/runtime~main.c8084093.js"
   },
   {
-    "revision": "2934cd4704144ece3385",
-    "url": "/pre-work-book-app/static/js/main.2934cd47.chunk.js"
+    "revision": "c02bb8a319c535783719",
+    "url": "/pre-work-book-app/static/js/main.c02bb8a3.chunk.js"
   },
   {
     "revision": "a53c2adc58a4bf1307ad",
     "url": "/pre-work-book-app/static/js/2.a53c2adc.chunk.js"
   },
   {
-    "revision": "2934cd4704144ece3385",
-    "url": "/pre-work-book-app/static/css/main.ba47790c.chunk.css"
+    "revision": "c02bb8a319c535783719",
+    "url": "/pre-work-book-app/static/css/main.137d46c0.chunk.css"
   },
   {
-    "revision": "affe2ee5e2069bb1bf088e748de9d004",
+    "revision": "3be5d53299243b9bbdb93aab52b2f408",
     "url": "/pre-work-book-app/index.html"
   }
 ];
