@@ -22,6 +22,8 @@ class Books extends Component {
             .then((data) => {
                 this.setState({books: [...data.body.items]})
             })
+            .catch(err => {
+                console.log(err.message, err.response)})
         }
 
     handleSearch = (e) => {
@@ -29,7 +31,6 @@ class Books extends Component {
     }
 
     render() {
-        console.log(this.state.books.map(book=>book.volumeInfo.imageLinks.thumbnail))
 
         return (
         <div className="Books">
