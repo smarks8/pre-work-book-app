@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+.books {
+    display: flex;
+    text-align: center;
+  justify-content: center;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.card-container {
+    border: 1px solid black;
+    padding: 20px 10px;
+    width: 300px;
+    margin: 20px;
+}

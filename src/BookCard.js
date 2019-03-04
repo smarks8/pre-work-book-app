@@ -1,4 +1,5 @@
 import React from 'react';
+import './stylesheet.css'
 
 const BookCard = (props) => {
     return(
@@ -7,7 +8,8 @@ const BookCard = (props) => {
             <div className="desc">
                 <h2>{props.title}</h2>
                 <h3>{props.author}</h3>
-                <p>{props.published}</p>
+                <h3>{props.publisher}</h3>
+                <button> <a target="_blank" href={props.externalLink}>MORE ABOUT ME</a></button>
             </div>
         </div>
     )

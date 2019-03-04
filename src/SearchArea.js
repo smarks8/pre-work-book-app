@@ -5,7 +5,7 @@ const SearchArea = (props) => {
         <div className="search-area">
             <form onSubmit={props.searchBook} action="">
                 <input onChange={props.handleSearch} type="text"/>
-                <button type="submit">HIT ME</button>
+                <button type="submit">SEARCH BOOKS</button>
             </form>
         </div>
     )

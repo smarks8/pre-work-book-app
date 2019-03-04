@@ -1,5 +1,6 @@
 import React from 'react';
 import BookCard from './BookCard.js'
+import './stylesheet.css'
 
 const BookList = (props) => {
     return(
@@ -11,8 +12,8 @@ const BookList = (props) => {
                                 image={book.volumeInfo.imageLinks.thumbnail} 
                                 title={book.volumeInfo.title}
                                 author={book.volumeInfo.authors}
-                                published={book.volumeInfo.publishedDate}
-
+                                publisher={book.volumeInfo.publisher}
+                                externalLink={book.volumeInfo.infoLink}
                             />
                 })
             }
